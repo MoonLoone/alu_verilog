@@ -1,0 +1,17 @@
+vendor_name = ModelSim
+source_file = 1, /home/moonlight/mtica_projects/alu_project/quartus_trigger.sv
+design_name = quartus_trigger
+instance = comp, \q[0]~output , q[0]~output, quartus_trigger, 1
+instance = comp, \q[1]~output , q[1]~output, quartus_trigger, 1
+instance = comp, \q[2]~output , q[2]~output, quartus_trigger, 1
+instance = comp, \clk~input , clk~input, quartus_trigger, 1
+instance = comp, \clk~inputCLKENA0 , clk~inputCLKENA0, quartus_trigger, 1
+instance = comp, \ena~input , ena~input, quartus_trigger, 1
+instance = comp, \q[2]~2 , q[2]~2, quartus_trigger, 1
+instance = comp, \clrn~input , clrn~input, quartus_trigger, 1
+instance = comp, \q[2]~reg0 , q[2]~reg0, quartus_trigger, 1
+instance = comp, \q[1]~1 , q[1]~1, quartus_trigger, 1
+instance = comp, \q[1]~reg0 , q[1]~reg0, quartus_trigger, 1
+instance = comp, \q[0]~0 , q[0]~0, quartus_trigger, 1
+instance = comp, \q[0]~reg0 , q[0]~reg0, quartus_trigger, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, quartus_trigger, 1

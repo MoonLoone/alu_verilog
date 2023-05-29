@@ -1,0 +1,61 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/moonlight/mtica_projects/second_project
+valu_tb
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 !s110 1678536711
+!i10b 1
+!s100 @O>H_^2:b;T@1>dfZWRAA0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Iklz><e?1Ue6eJ@T4kgZY_1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z4 d/home/moonlight/mtica_projects/alu_project
+w1678536708
+8/home/moonlight/mtica_projects/alu_project/alu_tb.sv
+F/home/moonlight/mtica_projects/alu_project/alu_tb.sv
+!i122 66
+L0 2 30
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1678536711.000000
+!s107 /home/moonlight/mtica_projects/alu_project/alu_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/moonlight/mtica_projects/alu_project/alu_tb.sv|
+!i113 1
+Z7 o-work work -sv
+Z8 tCvgOpt 0
+vbit_alu
+R0
+R1
+!i10b 1
+!s100 mk9`9@`H^Df>fjeI`PDgT3
+R2
+Ia98=h[YY?`B_2b6cI`dlz0
+R3
+S1
+R4
+w1678535971
+8/home/moonlight/mtica_projects/alu_project/bit_alu.sv
+F/home/moonlight/mtica_projects/alu_project/bit_alu.sv
+!i122 65
+L0 1 19
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/moonlight/mtica_projects/alu_project/bit_alu.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/moonlight/mtica_projects/alu_project/bit_alu.sv|
+!i113 1
+R7
+R8

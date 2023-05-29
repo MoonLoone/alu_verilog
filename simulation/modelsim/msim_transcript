@@ -1,0 +1,38 @@
+# do test_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying /home/moonlight/intelFPGA_lite/20.1/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+/home/moonlight/mtica_projects/alu_project {/home/moonlight/mtica_projects/alu_project/quartus_trigger.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:29:20 on Apr 03,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/moonlight/mtica_projects/alu_project" /home/moonlight/mtica_projects/alu_project/quartus_trigger.sv 
+# -- Compiling module quartus_trigger
+# 
+# Top level modules:
+# 	quartus_trigger
+# End time: 17:29:20 on Apr 03,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim work.quartus_trigger
+# vsim work.quartus_trigger 
+# Start time: 17:29:32 on Apr 03,2023
+# Loading sv_std.std
+# Loading work.quartus_trigger
+vsim work.quartus_trigger
+# End time: 17:29:36 on Apr 03,2023, Elapsed time: 0:00:04
+# Errors: 0, Warnings: 0
+# vsim work.quartus_trigger 
+# Start time: 17:29:36 on Apr 03,2023
+# Loading sv_std.std
+# Loading work.quartus_trigger
+add wave -position end sim:/quartus_trigger/*
+# Load canceled
+# End time: 17:29:58 on Apr 03,2023, Elapsed time: 0:00:22
+# Errors: 0, Warnings: 0
