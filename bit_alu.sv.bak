@@ -2,8 +2,8 @@ module bit_alu
 (input logic [1:0] sel,
  input logic a, b,
  output logic y);
-logic a_neg
-logic b_neg
+logic a_neg;
+logic b_neg;
 	always_comb
 	begin
 	a_neg = ~a;
